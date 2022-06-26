@@ -1,0 +1,22 @@
+.section-2 {
+    background-color: #33ccf2;
+    height: 100%;
+  }
+.section-2-description{
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+  @media screen and (max-width: 1020px) {
+    .section-2-title{
+      font-size: 1em;
+      position: relative;
+      bottom: 20px;
+      text-align: center;
+    }
+    .section-2-description{
+      width: 80vw;
+      text-align: justify;
+      line-height:1.4em
+    }
+  }
+  

@@ -1,0 +1,82 @@
+.btnWhite {
+  background-color: white;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+}
+.btnWhite:hover {
+  opacity: 0.8;
+}
+.btnContact {
+  position: fixed;
+  z-index: 200;
+  top: 5%;
+  right: 5%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding-top: 20vh;
+  align-items: center;
+  top: 0;
+  left: 50%;
+  width: 50vw;
+  gap: 20px;
+  height: 100vh;
+  position: fixed;
+  animation-name: fromLeftToRight;
+  animation-duration: 1.2s;
+  background-color: #5d3fd3;
+  color: white;
+}
+.formNotUsed {
+  display: none;
+}
+@keyframes fromLeftToRight {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+.formDisable {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  padding-top: 20vh;
+  left: 100%;
+  gap: 20px;
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #5d3fd3;
+  color: white;
+  animation-name: fromRightToLeft;
+  animation-duration: 1.2s;
+}
+.describeYourSelfArea{
+  border-radius: 5%;
+  border: none;
+}
+@keyframes fromRightToLeft {
+  from {
+    left: 50%;
+  }
+
+  to {
+    left: 100%;
+  }
+}

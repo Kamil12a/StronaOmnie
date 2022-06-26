@@ -1,0 +1,13 @@
+.section-3 {
+    background-color: #23dba9;
+    height: 100%;
+  }
+  .photoSkills{
+    width: 20vh;
+  }
+  @media screen and (max-width: 1020px) {
+    .photoSkills{
+      width: 12vh;
+    }
+  }
+  

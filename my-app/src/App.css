@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-4 {
+  background-color: #4bc568;
+  height: 100%;
+}
