@@ -22,7 +22,7 @@ function MySkills() {
     <ScrollPage page={2}>
       <div className="section-3">
         <Animator animation={ZoomInScrollOut}>
-          <h2>My Technologies</h2>
+          <h2>Moje Technologie</h2>
         </Animator>
         <Animator animation={batch(Sticky(30, 30), Move(), Fade())}>
           <img className=" photoSkills" src={reactPhoto} />

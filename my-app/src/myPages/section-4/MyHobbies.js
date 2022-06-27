@@ -39,7 +39,7 @@ function MyHobbies() {
           <iframe
             className="video-of-fav-battle"
             src="https://www.youtube.com/embed/9MiwQO-qhpc"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
             title="video"
             allowFullScreen
